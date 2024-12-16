@@ -31,7 +31,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'id="contact">
             <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
                 <div className='md:w-1/2'>
                     <img src={contactImage} alt="Contact Us" className='' />
@@ -103,6 +103,13 @@ const ContactUs = () => {
                     </form>
                 </div>
             </div>
+               {/* Office Address and Social Links Section */}
+            <div className='mt-12 text-center'>
+                <h3 className='text-2xl text-neutralDGrey font-semibold mb-4'>Our Office</h3>
+                <p className='text-sm text-gray-600 mb-2'>1234 Main St, Suite 100, City, State, ZIP</p>
+              
+            </div>
+
         </div>
     );
 };

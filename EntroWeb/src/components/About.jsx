@@ -6,7 +6,7 @@ import { FaUsers, FaProjectDiagram, FaStar, FaClock, FaDollarSign } from 'react-
 const About = () => {
 return (
 <div>
-    <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
+    <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id="about">
         <div className=' md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
             <div>
                 <img src={about} alt="" srcset="" />

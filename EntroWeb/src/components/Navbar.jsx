@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 
-import logo from '../assets/Icon.png'
+import Logo from '../assets/Logo.svg'
 
 // react icons
 import {FaXmark,FaBars} from "react-icons/fa6";
@@ -33,16 +33,16 @@ const navItems=[
 {link:"Home", path:"home"},
 {link:"Service", path:"service"},
 {link:"About", path:"about"},
-{link:"Product", path:"product"},
-{link:"Testimonial", path:"testimonial"},
-{link:"FAQ", path:"faq"},
+{link:"Contact US", path:"contact"},
+// {link:"Testimonial", path:"testimonial"},
+// {link:"FAQ", path:"faq"},
 
 ]
 return (
 <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
     <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" :""}`}>
         <div className='flex justify-between items-center text-base gap-8'>
-            <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={logo}
+            <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={Logo}
                     className='w-10 inline-block items-center' /><span className='text-[#263238]'>Entropix</span></a>
 
             {/* nav items for large devices */}
@@ -51,16 +51,16 @@ return (
                 {
                 navItems.map(({link,path})=>
                 <Link to={path} spy={true} smooth={true} offset={-100} key={path}
-                    className="block text-base text-gray900 hover:text-brandPrimary first:font-medium">{link}</Link>)
+                    className="block text-base text-gray900 hover:text-[#F2AA3D] first:font-medium">{link}</Link>)
                 }
             </ul>
 
 
             {/* btn for large devices */}
             <div className='space-x-12 hidden lg:flex items-center'>
-                <a href="/" className='hidden lg:flex items-center text-brandPrimary hover:text-gray900'>Login</a>
+                <a href="/" className='hidden lg:flex items-center text-[#F2AA3D] hover:text-gray900'>Login</a>
                 <button
-                    className='bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey'>SignUp</button>
+                    className='bg-[#F2AA3D] text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey'>SignUp</button>
             </div>
 
             {/* menu btn for only mobile */}
