@@ -103,12 +103,12 @@ const ContactUs = () => {
                     </form>
                 </div>
             </div>
-               {/* Office Address and Social Links Section */}
+               {/* Office Address and Social Links Section
             <div className='mt-12 text-center'>
                 <h3 className='text-2xl text-neutralDGrey font-semibold mb-4'>Our Office</h3>
                 <p className='text-sm text-gray-600 mb-2'>1234 Main St, Suite 100, City, State, ZIP</p>
               
-            </div>
+            </div> */}
 
         </div>
     );

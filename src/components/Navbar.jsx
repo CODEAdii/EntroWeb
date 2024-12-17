@@ -33,7 +33,7 @@ const navItems=[
 {link:"Home", path:"home"},
 {link:"Service", path:"service"},
 {link:"About", path:"about"},
-{link:"Contact US", path:"contact"},
+{link:"Contact Us", path:"contact"},
 // {link:"Testimonial", path:"testimonial"},
 // {link:"FAQ", path:"faq"},
 
@@ -57,11 +57,11 @@ return (
 
 
             {/* btn for large devices */}
-            <div className='space-x-12 hidden lg:flex items-center'>
+            {/* <div className='space-x-12 hidden lg:flex items-center'>
                 <a href="/" className='hidden lg:flex items-center text-[#F2AA3D] hover:text-gray900'>Login</a>
                 <button
                     className='bg-[#F2AA3D] text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey'>SignUp</button>
-            </div>
+            </div> */}
 
             {/* menu btn for only mobile */}
 

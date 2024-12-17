@@ -24,9 +24,10 @@ const Home = () => {
                 We provide innovative software solutions, helping businesses scale with powerful ERP systems, mobile apps, and much more.
                 Let us turn your ideas into impactful realities.
               </p>
-              <button className="btn-primary">
-                Get Started
-              </button>
+              {/* <button className="btn-primary"> */}
+                {/* Get Started */}
+              {/* </button> */}
+              
             </div>
           </div>
 
@@ -45,9 +46,9 @@ const Home = () => {
               <p className='text-neutralGrey text-base mb-8'>
                 From ERP systems to mobile applications, our software solutions are designed to streamline your operations and enhance your digital presence.
               </p>
-              <button className="btn-primary">
-                Contact Us
-              </button>
+              {/* <button className="btn-primary"> */}
+                {/* Contact Us */}
+              {/* </button> */}
             </div>
           </div>
 
@@ -66,9 +67,9 @@ const Home = () => {
               <p className='text-neutralGrey text-base mb-8'>
                 With our secure and reliable cloud hosting and IT consulting services, we ensure that your business is always ready for tomorrow.
               </p>
-              <button className="btn-primary">
-                Explore Our Services
-              </button>
+              {/* <button className="btn-primary"> */}
+                {/* Explore Our Services */}
+              {/* </button> */}
             </div>
           </div>
 

@@ -5,7 +5,7 @@ return (
 <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto' id="service">
     <div className='text-center my-8'>
         <h2 className='text-4xl text-neutralDGrey   font-semibold mb-2'>Our Clients</h2>
-        <p className='text-neuralDGrey'>We have been working with some Fortune 50+ clients</p>
+        <p className='text-neutralDGrey'>We collaborate with industry-leading clients to deliver exceptional results.</p>
         {/* Comapny logos */}
         <div className='my-12 flex flex-wrap justify-between items-center gap-8 '>
             <img src="/src/assets/companyIcons/Logo1.png" alt="" />
